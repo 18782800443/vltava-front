@@ -19,5 +19,5 @@ module.exports = {
   testMatch: [
     '**/unit/**/*.spec.(js|jsx|ts|tsx)',
   ],
-  testURL: 'http://localhost/',
+  testURL: 'http://vlatava-agent-tool.rta-os.com/',
 }

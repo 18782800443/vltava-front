@@ -1,11 +1,10 @@
 <!--<template>-->
-    <!--<div>-->
-        <!--&lt;!&ndash;<button @click="ToOtherPage">去首页</button>&ndash;&gt;-->
-        <!--<va-card :title="使用手册"></va-card>-->
-        <!--<va-button class="base-filter-btn-new" @click="ToOtherPage">使用手册</va-button>-->
-    <!--</div>-->
+<!--<div>-->
+<!--&lt;!&ndash;<button @click="ToOtherPage">去首页</button>&ndash;&gt;-->
+<!--<va-card :title="使用手册"></va-card>-->
+<!--<va-button class="base-filter-btn-new" @click="ToOtherPage">使用手册</va-button>-->
+<!--</div>-->
 <!--</template>-->
-
 <template>
     <div
             class="va-othercard"
@@ -31,12 +30,12 @@
                             :style="{color: this.titleOnImage ? 'white' : this.$themes.info}"
                     >
                         点击查看Mock平台使用手册~
-            </div>
+                    </div>
                     <div
                             class="va-othercard__header-titleOther"
                             :style="{color: this.titleOnImage ? 'white' : this.$themes.info}"
                     >
-                        &#8195使用过程中有任何疑问欢迎咨询杨勇、许敬敏,&#8194Enjoy it and have fun!
+                        &#8195使用过程中有任何疑问欢迎咨询祝威,&#8194Enjoy it and have fun!
                     </div>
                     <div class="va-othercard__header-actions">
                         <slot name="actions"/>
@@ -51,18 +50,18 @@
 <script>
     export default {
         name: "ToOtherPage",
-
-        methods:{
-            ToOtherPage(){
-                window.open("https://duodian.feishu.cn/docs/doccnj5efWMgCm7xp6N3Ecn9X1g", '_blank')
+        methods: {
+            ToOtherPage() {
+                window.open("https://duodian.feishu.cn/docx/doxcnwrQGc3DtDARB5YXb6UKMBg", '_blank')
             }
         }
     }
 </script>
 
 <style lang="scss">
-    .card-body-content{
-        margin-top: 0.75rem;}
+    .card-body-content {
+        margin-top: 0.75rem;
+    }
 
     .va-othercard {
         border-radius: $card-border-radius;
@@ -100,27 +99,27 @@
             }
 
             /*&-actions {*/
-                /*margin-left: auto;*/
-                /*flex: 0 0 auto;*/
+            /*margin-left: auto;*/
+            /*flex: 0 0 auto;*/
             /*}*/
 
             /*&--over {*/
-                /*position: absolute;*/
-                /*padding-top: 56%;*/
-                /*width: 100%;*/
-                /*top: 0;*/
-                /*left: 0;*/
+            /*position: absolute;*/
+            /*padding-top: 56%;*/
+            /*width: 100%;*/
+            /*top: 0;*/
+            /*left: 0;*/
 
-                /*&:last-child {*/
-                    /*height: 100%;*/
-                /*}*/
+            /*&:last-child {*/
+            /*height: 100%;*/
+            /*}*/
 
-                /*& > div {*/
-                    /*position: absolute;*/
-                    /*width: 100%;*/
-                    /*bottom: 0;*/
-                    /*left: 0;*/
-                /*}*/
+            /*& > div {*/
+            /*position: absolute;*/
+            /*width: 100%;*/
+            /*bottom: 0;*/
+            /*left: 0;*/
+            /*}*/
             /*}*/
         }
 
@@ -147,40 +146,40 @@
         }
 
         /*&__image {*/
-            /*padding-bottom: 56%;*/
-            /*position: relative;*/
-            /*height: auto;*/
-            /*min-height: 100%;*/
+        /*padding-bottom: 56%;*/
+        /*position: relative;*/
+        /*height: auto;*/
+        /*min-height: 100%;*/
 
-            /*img {*/
-                /*position: absolute;*/
-                /*top: 0;*/
-                /*left: 0;*/
-                /*height: 100%;*/
-                /*width: 100%;*/
-                /*display: block;*/
-                /*object-fit: cover;*/
-            /*}*/
+        /*img {*/
+        /*position: absolute;*/
+        /*top: 0;*/
+        /*left: 0;*/
+        /*height: 100%;*/
+        /*width: 100%;*/
+        /*display: block;*/
+        /*object-fit: cover;*/
+        /*}*/
 
-            /*&-overlay {*/
-                /*position: absolute;*/
-                /*top: 0;*/
-                /*left: 0;*/
-                /*height: 100%;*/
-                /*width: 100%;*/
-                /*background-color: rgba(0, 0, 0, .3);*/
-                /*pointer-events: none;*/
-            /*}*/
+        /*&-overlay {*/
+        /*position: absolute;*/
+        /*top: 0;*/
+        /*left: 0;*/
+        /*height: 100%;*/
+        /*width: 100%;*/
+        /*background-color: rgba(0, 0, 0, .3);*/
+        /*pointer-events: none;*/
+        /*}*/
         /*}*/
 
         /*&__stripe {*/
-            /*content: '';*/
-            /*position: absolute;*/
-            /*top: 0;*/
-            /*left: 0;*/
-            /*width: 100%;*/
-            /*height: 0.5rem;*/
-            /*z-index: 1;*/
+        /*content: '';*/
+        /*position: absolute;*/
+        /*top: 0;*/
+        /*left: 0;*/
+        /*width: 100%;*/
+        /*height: 0.5rem;*/
+        /*z-index: 1;*/
         /*}*/
     }
 </style>

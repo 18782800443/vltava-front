@@ -74,7 +74,7 @@ const getTaskStatusEnum = state => value => {
 };
 
 const getWebSocketBaseUrl = state => value => {
-  return `ws://${process.env.NODE_ENV === 'development' ? 'localhost:8097' : 'testvlatava-agent-tool.rta-os.com'}/vltava/ws/`
+  return `ws://${process.env.NODE_ENV === 'development' ? 'localhost:8097' : 'testvlatava-agent-tool.fit.dmall.com'}/vltava/ws/`
 };
 
 const getAppList = state => value => {

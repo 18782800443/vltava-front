@@ -45,11 +45,24 @@ Vue.use(VueClipboard)
 
 Vue.use(ColorThemePlugin,
   {
+      themes:{
+          primary:"#8c36ee",
+          secondary:"#18182e",
+          success:"#8DDC88",
+          info:"#16171d",
+          danger:"#F8706D",
+          warning:"#FFD652",
+          gray:"#8396A5",
+          dark:"#34495E"
+      },
     // Add or change theme colors here
-    themes: {
-      // primary: '#f06595',
-      // blurple: '#7289DA',
-    },
+    // themes: {
+    //   primary: '#f06595',
+    //   blurple: '#7289DA',
+    //
+    //     success:
+    // },
+
   })
 
 router.beforeEach((to, from, next) => {

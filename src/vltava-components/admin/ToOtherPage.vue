@@ -35,7 +35,7 @@
                             class="va-othercard__header-titleOther"
                             :style="{color: this.titleOnImage ? 'white' : this.$themes.info}"
                     >
-                        &#8195使用过程中有任何疑问欢迎咨询祝威,&#8194Enjoy it and have fun!
+                        Enjoy it and have fun!
                     </div>
                     <div class="va-othercard__header-actions">
                         <slot name="actions"/>

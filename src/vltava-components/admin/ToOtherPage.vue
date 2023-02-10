@@ -52,7 +52,7 @@
         name: "ToOtherPage",
         methods: {
             ToOtherPage() {
-                window.open("https://duodian.feishu.cn/docx/doxcnwrQGc3DtDARB5YXb6UKMBg", '_blank')
+                window.open("https://duodian.feishu.cn/docx/Fl1Gd510sojiu7x3lGrclsnAncb", '_blank')
             }
         }
     }

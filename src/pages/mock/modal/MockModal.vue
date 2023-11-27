@@ -17,7 +17,7 @@
             <div class="va-row row align--center" v-if="mockData.implicit===1">
                 <label class="entrance-label">接口入口 : </label>
                 <va-input class="flex xl7 " label="className" v-model="mockData.entranceClassName"
-                          placeholder="com.dmall.y.XService；为环境稳定，禁用*" :disabled="disable"></va-input>
+                          placeholder="com.testhuamou.y.XService；为环境稳定，禁用*" :disabled="disable"></va-input>
                 <va-input class="flex xl4 entrance-method" label="methodName" v-model="mockData.entranceMethodName"
                           placeholder="为环境稳定，禁用*" :disabled="disable"></va-input>
             </div>

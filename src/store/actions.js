@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_ROOT = process.env.NODE_ENV === 'development' ? 'http://localhost:8097' : 'https://testvlatava-agent-tool.fit.dmall.com';
+const API_ROOT = process.env.NODE_ENV === 'development' ? 'http://localhost:8097' : 'https://testvlatava-agent-tool.fit.testhuamou.com';
 axios.defaults.baseURL = API_ROOT
 
 const init =(context)=>{

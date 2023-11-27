@@ -3,7 +3,7 @@
         <va-select v-model="appId" :options="appOptions" label="所属应用" text-by="appName"></va-select>
         <va-input class="app-modal-input" label="需求名称" v-model="taskName"></va-input>
         <va-input class="app-modal-input" label="文件过滤条件" v-model="fileFilters"
-                  placeholder='工程package通用路径，例如：com.dmall.trade.* '></va-input>
+                  placeholder='工程package通用路径，例如：com.testhuamou.trade.* '></va-input>
         <va-input class="app-modal-input" label="消息过滤条件" v-model="msgFilters"
                   placeholder='参考grep多条件以|隔开，禁用*，例如："Id":"1"|"name":"test"'></va-input>
         <va-progress-bar :buffer="rate" v-if="showRate"></va-progress-bar>

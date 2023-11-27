@@ -2,7 +2,7 @@
     <va-modal v-model="open" :title="getTitle" @ok="submit">
         <va-input class="app-modal-input" label="应用名称" v-model="appName"></va-input>
         <va-input class="app-modal-input" label="系统唯一名称" v-model="systemUniqueName"
-                  placeholder="docker终端url中appUniqCode参数值，例：dmall-trade-api"></va-input>
+                  placeholder="docker终端url中appUniqCode参数值，例：testhuamou-trade-api"></va-input>
         <va-input class="app-modal-input" label="部署单元" v-model="zone"
                   placeholder="运行详情页中的部署单元，例：gz01a"></va-input>
         <va-input class="app-modal-input" label="部署分组" v-model="buildGroup"

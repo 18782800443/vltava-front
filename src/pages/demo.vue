@@ -5,7 +5,7 @@
                 <TraceFilter @submit="submit"></TraceFilter>
             </div>
             <div class="jenkins">
-                <jenkins-info job-name="trade.dmall.com" @feedback="getJenkinsFeedback"></jenkins-info>
+                <jenkins-info job-name="trade.testhuamou.com" @feedback="getJenkinsFeedback"></jenkins-info>
             </div>
         </div>
         <div v-for="file in codeData.detailList">

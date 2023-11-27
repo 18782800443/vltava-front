@@ -16,7 +16,7 @@
             </div>
             <div class="va-row row align--center">
                 <va-input class="flex xl7 " label="className" v-model="action.className"
-                          placeholder="com.dmall.y.XService；为环境稳定，禁用*" :disabled="disable"></va-input>
+                          placeholder="com.testhuamou.y.XService；为环境稳定，禁用*" :disabled="disable"></va-input>
                 <va-input class="flex xl4 app-modal-input" label="methodName" v-model="action.methodName"
                           placeholder="为环境稳定，禁用*" :disabled="disable"></va-input>
             </div>
